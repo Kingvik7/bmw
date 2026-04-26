@@ -30,7 +30,6 @@ export default function Canvas() {
 		<CanvasWrapper>
 			{canvasReady && (
 				<Application
-					autoRender={false}
 					fillMode={FILLMODE_FILL_WINDOW}
 					resolutionMode={RESOLUTION_AUTO}
 					graphicsDeviceOptions={{
