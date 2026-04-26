@@ -238,7 +238,7 @@ function Scene({ splatLoaded, setSplatLoaded, enableAnimation }: SceneProps) {
 			</Entity>
 
 			<Splat
-				src="/splats/bmw.ply"
+				src={`${import.meta.env.BASE_URL}splats/bmw.ply`}
 				opacity={splatOpacity}
 				position={[0, -0.5, 0]}
 				rotation={[0, 180, 0]}
